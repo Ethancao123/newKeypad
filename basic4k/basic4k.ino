@@ -24,14 +24,14 @@
 #include <Keyboard.h>
 
 // Version number (increment to update EEPROM values)
-bool version = 1;
-char initMapping[] = {"zxcv"};
+bool version = 0;
+char initMapping[] = {"dfjk"};
 
 // How many keys (0 indexed)
 const byte numkeys = 4;
 
 // Array for buttons (for use in for loop.)
-const byte button[] = { 2, 3, 4, 5, 7 };
+const byte button[] = { 10, 16, 14, 15, 7 }; //7 is not connected
 
 // Makes button press/release action happen only once
 bool pressed[4];
