@@ -31,7 +31,7 @@ char initMapping[] = {"dfjk"};
 const byte numkeys = 4;
 
 // Array for buttons (for use in for loop.)
-const byte button[] = { 10, 16, 14, 15, 7 }; //7 is not connected
+const byte button[] = { 15, 14, 16, 10, 7 }; //7 is not connected
 
 // Makes button press/release action happen only once
 bool pressed[4];
